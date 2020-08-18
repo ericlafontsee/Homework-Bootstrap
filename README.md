@@ -53,9 +53,9 @@ Finally, to utilize the Bootstrap grid in your webpage you must use the followin
   ```
 
 ## HTML Validation
-![image](assets/Images/home-validation.png)
-![image](assets/Images/portfolio-validation.png)
-![image](assets/Images/contact-validation.png)
+![image](assets/Images/Home-validation.png)
+![image](assets/Images/Portfolio-validation.png)
+![image](assets/Images/Contact-validation.png)
  ## Author
  Eric LaFontsee
 
