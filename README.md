@@ -5,13 +5,19 @@ The website I created was a portfolio with a Home/About page, a portfolio page, 
 Using the Bootstrap nav bar at the top, I created functional links to toggle between the three pages.
 This website is also responsive so it can be viewed on any device without the user's experience suffering. As the screen gets smaller, the navbar will collapse into a hamburger menu and the images and text will begin to stack.
 This is done through the use of the Bootsrap grid. My columns are designed for the smallest screen possible so that my webpage can work on any device.
-
-
+Finally, this webpage is optimized for searching engines and other programmers. The html is semantically layed out with descriptive headers and 
+alt attributes on photos.
 
 ## Usage
 ![image](assets/Images/homePage.png)
 ![image](assets/Images/portfolioPage.png)
 ![image](assets/Images/contactPage.png)
+
+## Built With
+Bootstrap  
+HTML  
+CSS  
+JavaScript
 
 ## Installation
 To utilize Bootstrap components you must insert the following css into the head of your html: 
@@ -34,7 +40,8 @@ Finally, to utilize the Bootstrap grid in your webpage you must use the followin
     </div>
 </div> 
   ```
-
+ ## Author
+ Eric LaFontsee
 
   ## License
   MIT
