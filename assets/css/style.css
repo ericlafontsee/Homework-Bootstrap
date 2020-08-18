@@ -2,6 +2,30 @@
     font-family: Dancing-Script;
     src: url(Dancing_Script/DancingScript-VariableFont_wght.ttf);
 }
+body {
+    background-image: url("../Images/double-bubble.png");
+    background-repeat: repeat;
+    background-position: center;
+}
 h1 {
     font-family: Dancing-Script;
 }
+@media (max-width: 600px) {
+        .container {
+          padding:0;
+          margin:0;
+        }
+    
+        body {
+          padding:0;
+        }
+    
+        header.navbar {
+          margin-left: 0;
+          margin-right: 0;
+          margin-bottom:0;
+        }
+        img {
+            margin-top: 20px;
+        }
+    }
