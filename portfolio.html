@@ -1,83 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8" name="description" content="The official portfolio of Eric LaFontsee. Here you will find his bio, a gallery of his work, and a contact form" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eric LaFontsee's Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/0ad6dfef5e.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-      <!-- Begin header-->
+    <!-- Begin header-->
     <header class="navbar navbar-expand-lg navbar-light bg-info border border-dark">
         <h1>Eric LaFontsee</h1>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
         <!-- Begin Navbar -->
         <nav class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home/About</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Portfolio <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home/About</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Portfolio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
         </nav>
     </header>
     <!-- Begin Main Content Container -->
-    <section class="container m-3">
+    <section class="container container-fluid">
         <div class="row">
-            <div class="col-md-8 bg-info border border-dark" >
-                <!-- Sub Row -->
-                <div class="row">
-                    <div class="col-12">
-                        <h3 class="text-light bg-dark border m-3 border-white">Portfolio</h3>
+            <div class="col-md-12">
+                <div class="bg-info border border-dark margin-top">
+                    <h3 class="text-light bg-dark border border-white p-2">Portfolio</h3>
+                    <!-- Sub Row -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="assets/Images/Horizeon.png"
+                                class="rounded d-block w-100 mt-4  border border-white" alt="Horizeon Website Layout" />
+                        </div>
+                        <div class="col-md-6">
+                            <img src="assets/Images/4-PositioningActivity.png"
+                                class="rounded d-block mt-4 w-100 border border-white"
+                                alt="Placeholder images and text showcasing css positioning" />
+                        </div>
                     </div>
-                </div>
-                <!-- Sub Row -->
-                <div class="row m-3">
-                    <div class="col-sm-6">
-                        <img src="assets/Images/Horizeon.png" class="rounded d-block w-100 border border-white" alt="Horizeon Website Layout">
-                    </div> 
-                    <div class="col-sm-6">
-                        <img src="assets/Images/4-PositioningActivity.png" class="rounded d-block w-100 border border-white" alt="Placeholder images and text showcasing css positioning">
-                    </div> 
-                </div>
-                <!-- Sub Row -->
-                <div class="row m-3">
-                    <div class="col-sm-6">
-                        <img src="assets/Images/BooTheDog.png" class="rounded d-block w-100 border border-white" alt="Colorful box layout showcasing the css float property">
-                    </div> 
-                    <div class="col-sm-6">
-                        <img src="assets/Images/Fanpage2.png" class="rounded d-block w-100 border border-white" alt="Tom Petty fan page with Heartbreakers logo and Tom on guitar.">
-                    </div> 
-                </div>
-                <!-- Sub Row -->
-                <div class="row m-3">
-                    <div class="col-sm-6">
-                        <img src="assets/Images/Scratch_pic.png" class="rounded d-block mb-3 w-100 border border-white" alt="Tom Petty fan page with an embedded video from a live concert">
-                    </div> 
+                    <!-- Sub Row -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="assets/Images/BooTheDog.png"
+                                class="rounded d-block w-100 mt-4  border border-white"
+                                alt="Colorful box layout showcasing the css float property" />
+                        </div>
+                        <div class="col-md-6">
+                            <img src="assets/Images/Fanpage2.png" class="rounded d-block w-100 mt-4 border border-white"
+                                alt="Tom Petty fan page with Heartbreakers logo and Tom on guitar." />
+                        </div>
+                    </div>
+                    <!-- Sub Row -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="assets/Images/Scratch_pic.png"
+                                class="rounded d-block mt-4 mb-4 w-100 border border-white"
+                                alt="Tom Petty fan page with an embedded video from a live concert" />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- Begin Footer -->
-    <footer class="bg-info fixed-bottom text-center border border-dark">
+    <footer id="sticky-footer" class="bg-info fixed-bottom text-center border border-dark">
         <p>&copy; 2020 Eric LaFontsee</p>
-        <a href="https://www.instagram.com/eric_lafontsee/?hl=en" target="_blank"><i class="fab fa-instagram fa-2x m-2"></i></a>
-        <a href="https://www.facebook.com/eric.lafontsee" target="_blank"><i class="fab fa-facebook fa-2x m-2""></i></a>
-        <a href="https://www.linkedin.com/in/eric-lafontsee-a2b65a6b/" target="_blank"><i class="fab fa-linkedin-in fa-2x m-2""></i></a>
-        <a href="https://github.com/ericlafontsee" target="_blank"><i class="fab fa-github fa-2x m-2"" ></i></a>
+        <a href="https://www.instagram.com/eric_lafontsee/?hl=en" target="_blank"><i
+                class="fab fa-instagram fa-2x mx-2 my-1"></i></a>
+        <a href="https://www.facebook.com/eric.lafontsee" target="_blank"><i
+                class="fab fa-facebook fa-2x mx-2 my-1"></i></a>
+        <a href="https://www.linkedin.com/in/eric-lafontsee-a2b65a6b/" target="_blank"><i
+                class="fab fa-linkedin-in fa-2x mx-2 my-1"></i></a>
+        <a href="https://github.com/ericlafontsee" target="_blank"><i class="fab fa-github fa-2x mx-2 my-1"></i></a>
     </footer>
-    </body>
+</body>
+
 </html>

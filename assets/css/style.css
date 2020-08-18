@@ -10,22 +10,29 @@ body {
 h1 {
     font-family: Dancing-Script;
 }
+.margin-top {
+  margin-top: 20px;
+  padding: 20px;
+}
 @media (max-width: 600px) {
-        .container {
-          padding:0;
-          margin:0;
-        }
-    
-        body {
-          padding:0;
-        }
     
         header.navbar {
           margin-left: 0;
           margin-right: 0;
           margin-bottom:0;
         }
-        img {
-            margin-top: 20px;
+        .fixed-bottom {
+          position: relative;
+          padding-bottom: 20px;
+          padding-top: 20px;
+          margin-top: 20px;
+        }
+        #contact-footer {
+          position: fixed;
+          padding-top: 20px;
+          margin-top: 20px;
+          bottom: 0;
+          left: 0;
+          right:0;
         }
     }
